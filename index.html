@@ -37,10 +37,10 @@
             padding: 0 1rem;
         }
         footer {
-            background: #333;
+        background: #333;
             color: #fff;
             text-align: center;
-            padding: 1rem 0;
+            padding: 0.0001rem ;
             position: fixed;
             bottom: 0;
             width: 100%;
@@ -109,6 +109,17 @@
             <p>Teléfono: (223) 606-1386</p>
             <div class="form-contact">
                 <h3>Envíenos un Mensaje</h3>
-                <form action="mailto:info@rodriguez-asociados.com" method="post" enctype="text/plain">
+                   <form action="mailto:info@rodriguez-asociados.com" method="post" enctype="text/plain">
                     <input type="text" name="name" placeholder="Nombre" required>
-                    <input type="email" name="email" placeholder="Correo
+                    <input type="email" name="email" placeholder="Correo Electrónico" required>
+                    <textarea name="message" placeholder="Mensaje" rows="4" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 - Todos los derechos reservados. Rodriguez & Asociados</p>
+    </footer>
+</body>
+</html>
