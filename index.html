@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodriguez & Asociados</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -18,6 +19,11 @@
             padding: 1rem 0;
             text-align: center;
         }
+        header img {
+            max-width: 300px;
+            display: block;
+            margin: 0 auto;
+        }
         nav {
             background: #0059b3; /* Color Azul Más Claro */
             color: #fff;
@@ -30,16 +36,19 @@
             text-decoration: none;
             font-weight: bold;
         }
+        nav a:hover {
+            text-decoration: underline;
+        }
         .container {
             max-width: 1000px;
             margin: 2rem auto;
             padding: 0 1rem;
         }
         footer {
-        background: #333;
+            background: #333;
             color: #fff;
             text-align: center;
-            padding: 0.0001rem ;
+            padding: 1rem;
             position: fixed;
             bottom: 0;
             width: 100%;
@@ -69,27 +78,24 @@
             padding: 0.5rem 1rem;
             cursor: pointer;
         }
+        .form-contact button:hover {
+            background: #555;
+        }
     </style>
 </head>
 <body>
     <header>
-        <img src="rodriguez & asoc..png" alt="Logo de Rodriguez & Asociados">
-       <p>Servicios Jurídicos en Materia Civil, Laboral, Familia, Contratos, Habeas Data y Más</p>
+        <img src="rodriguez_asoc.png" alt="Logo de Rodriguez & Asociados">
+        <p>Servicios Jurídicos en Materia Civil, Laboral, Familia, Contratos, Habeas Data y Más</p>
     </header>
     <nav>
-        <a href="#INICIO>INICIO</a>
-        <a href="#SERVICIOS>SERVICIOS</a>
-        <a href="#NOVEDADES">NOVEDADES</a>
-        <a href="#LOGROS">LOGROS</a>
-        <a href="#CONTACTO">CONTACTO</a>
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="novedades.html">Novedades</a>
+        <a href="logros.html">Logros</a>
+        <a href="contacto.html">Contacto</a>
     </nav>
     <div class="container">
-        <section id="SERVICIOS" class="section">
-         <h2>SERVICIOS</h2>
-           <p>DERECHO LBORAL.</p>
-           <p>ACCIDENTES DE TRANSITO</p> 
-           <p>DERECHO DE FAMILIA</p>
-           <p>AMPAROS DE SALUD</p>            
         <section id="novedades" class="section">
             <h2>Novedades</h2>
             <p>Manténgase al día con las últimas noticias y desarrollos en el ámbito legal. En esta sección, compartimos artículos, actualizaciones y análisis sobre cambios en la legislación y casos de interés.</p>
@@ -101,12 +107,12 @@
         <section id="contacto" class="section">
             <h2>Contacto</h2>
             <p>Para más información o para programar una consulta, póngase en contacto con nosotros. Estamos aquí para ayudarle.</p>
-            <p>Email:rodriguezasoc.est@gmail.com</p>
+            <p>Email: rodriguezasoc.est@gmail.com</p>
             <p>Teléfono: (223) 606-1386</p>
-            <p>Lunes a Viernes de 8 a 18 hrs.</p>          
+            <p>Horario: Lunes a Viernes de 8 a 18 hrs.</p>
             <div class="form-contact">
                 <h3>Envíenos un Mensaje</h3>
-                   <form action="mailto:info@rodriguez-asociados.com" method="post" enctype="text/plain">
+                <form action="mailto:info@rodriguez-asociados.com" method="post" enctype="text/plain">
                     <input type="text" name="name" placeholder="Nombre" required>
                     <input type="email" name="email" placeholder="Correo Electrónico" required>
                     <textarea name="message" placeholder="Mensaje" rows="4" required></textarea>
@@ -118,5 +124,5 @@
     <footer>
         <p>&copy; 2024 - Todos los derechos reservados. Rodriguez & Asociados</p>
     </footer>
-</body>
-</html>
+</
+
